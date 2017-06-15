@@ -5,3 +5,47 @@ html{
 body{
 	
 }
+
+.page-header h1{
+	font-size: 60px; letter-spacing: 10px; color: #989A9A
+}
+
+.topbar li{
+	margin-right: 30px;
+}
+
+.navbar-nav li a:hover{
+	background-color: #DFE1E8;
+}
+
+.navbar-nav li a{
+	color: black;
+}
+
+.subheader{
+	text-align: center;
+	font-size: 30px;
+	color: #818284;
+}
+.subheader span{
+	display: inline-block;
+	position: relative;
+}
+
+.subheader span:before, .subheader span:after{
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	top: 0;
+	width: 200px;
+}
+
+.subheader span:before{
+	right: 100%;
+}
+
+.subheader span:after{
+	left: 100%;
+}
