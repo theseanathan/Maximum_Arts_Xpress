@@ -7,7 +7,10 @@ body{
 }
 
 .page-header h1{
-	font-size: 60px; letter-spacing: 10px; color: #989A9A
+	font-size: 70px; 
+	letter-spacing: 10px; 
+	color: #4D4D4F;
+	font-family: 'Open Sans Condensed';
 }
 
 .topbar li{
@@ -24,8 +27,9 @@ body{
 
 .subheader{
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	color: #818284;
+	font-family: 'Open Sans Condensed';
 }
 .subheader span{
 	display: inline-block;
@@ -36,16 +40,19 @@ body{
 	content: "";
 	position: absolute;
 	height: 5px;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
-	top: 0;
-	width: 200px;
+	background-color: #7400E1;
+	/*border-bottom: 1px solid black;
+	border-top: 1px solid black;*/
+	top: 0.6em;
+	width: 100px;
 }
 
 .subheader span:before{
 	right: 100%;
+	margin-right: 2.5em;
 }
 
 .subheader span:after{
 	left: 100%;
+	margin-left: 2.5em;
 }
